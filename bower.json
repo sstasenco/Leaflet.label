@@ -6,6 +6,10 @@
     "Jacob Toye <jacob.toye@gmail.com>"
   ],
   "description": "Labels for leaflet maps",
+  "main" : [
+    "dist/leaflet.label-src.js",
+    "dist/leaflet.label.css"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -15,9 +19,5 @@
   "dependencies": {
     "leaflet": "~0.7.0"  
   },
-  "main" : [
-    "dist/leaflet.label-src.js",
-    "dist/leaflet.label.css"
-  ],
   "keywords": ["gis", "map"]
 }
